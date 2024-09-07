@@ -8,6 +8,13 @@ ref: https://container-registry.oracle.com/ords/f?p=113:4:7017560529758:::4:P4_R
 
 Oracle Database Express:21.3.0-xe
 
+## SpringFox - Swagger
+
+- http://localhost:8080/v2/api-docs
+- http://localhost:8080/swagger-ui/
+
+ref: https://www.baeldung.com/swagger-2-documentation-for-spring-rest-api
+
 ## Setup Oracle DB using Docker
 
 ```shell
