@@ -12,7 +12,7 @@ Oracle Database Express:21.3.0-xe
 
 ```shell
 
-docker run -d --name oracle-db -p 1521:1521 -p 5500:5500 -e ORACLE_PWD=password -v oracle-db-vol:/opt/oracle/oradata container-registry.oracle.com/database/express:21.3.0-xe
+docker compose up -d
 
 docker exec -it oracle-db sqlplus sys/password@XE as sysdba
 
